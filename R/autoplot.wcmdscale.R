@@ -6,7 +6,7 @@ if(getRversion() >= "2.15.1") {
   utils::globalVariables(c("Dim1", "Dim2", "Score", "Label"))
 }
 ## end help codetools
-
+##' @encoding UTF-8
 ##' @title ggplot-based plot for objects of class \code{"wcmdscale"}
 ##'
 ##' @description
@@ -46,7 +46,7 @@ if(getRversion() >= "2.15.1") {
   eig <- attr(obj, 'eig')
   tot.chi <- sum(eig)
   expl <- round(eig / tot.chi * 100, 2)
-  
+
   ## skeleton layer
   plt <- ggplot()
   geom <- match.arg(geom)
