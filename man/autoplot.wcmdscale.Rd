@@ -40,4 +40,3 @@ autoplot(ord)
 \author{
 Eduard Szöcs eduardszoecs@gmail.com
 }
-

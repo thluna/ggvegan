@@ -37,4 +37,3 @@ head(fortify(ord))
 \author{
 Eduard Szöcs eduardszoecs@gmail.com
 }
-
