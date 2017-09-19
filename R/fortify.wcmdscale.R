@@ -1,5 +1,7 @@
 ##' @title Fortify a \code{"wcmdscale"} object.
 ##'
+##' @encoding UTF-8
+##' 
 ##' @description
 ##' Fortifies an object of class \code{"wcmdscale"} to produce a
 ##' data frame of the selected axis scores in long format, suitable for
